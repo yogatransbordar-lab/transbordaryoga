@@ -88,8 +88,7 @@ button {
   color: var(--text-main);
 }
 
-#viagens,
-#tg-carousel-section {
+#viagens {
   scroll-margin-top: 130px;
 }
 
@@ -105,19 +104,6 @@ button {
 
 .viagens-title {
   margin-bottom: 0.8rem;
-}
-
-.viagens-jump {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0.75rem 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.viagens-jump a {
-  font-weight: 600;
-  border-bottom: 2px solid var(--primary);
 }
 
 .ilhota-photos {
