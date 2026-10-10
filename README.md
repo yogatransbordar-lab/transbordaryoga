@@ -23,7 +23,7 @@
 
 ---
 
-O Transbordar é um estúdio na Galeria Ana Maria, em Jardim Atlântico, Olinda. O site apresenta o espaço, os professores, as aulas, a loja, os aulões externos e a Yoga Trip para Bonito.
+O Transbordar é um estúdio na Galeria Ana Maria, em Jardim Atlântico, Olinda. O site apresenta o espaço, os professores, as aulas, a loja, os aulões externos e o passeio Yoga na Ilhota.
 
 A página é estática: HTML, CSS e JavaScript, sem build e sem banco de dados. As fotos abaixo foram capturadas da versão local do site.
 
@@ -68,9 +68,9 @@ A página é estática: HTML, CSS e JavaScript, sem build e sem banco de dados. 
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img src="docs/screenshots/yoga-trip.png" alt="Página da Yoga Trip para Bonito">
-      <br><strong>Yoga Trip — Bonito</strong><br>
-      <sub>Bate e volta com trilhas, cachoeiras e yoga no bambuzal.</sub>
+      <img src="docs/screenshots/yoga-ilhota.png" alt="Passeio Yoga na Ilhota, na Coroa do Avião">
+      <br><strong>Yoga na Ilhota</strong><br>
+      <sub>Domingo na Coroa do Avião, com yoga, mar, barco e café da manhã.</sub>
     </td>
     <td width="50%" valign="top">
       <img src="docs/screenshots/localizacao.png" alt="Endereço do estúdio em Olinda">
