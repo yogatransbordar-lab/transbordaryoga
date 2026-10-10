@@ -88,6 +88,53 @@ button {
   color: var(--text-main);
 }
 
+#viagens,
+#tg-carousel-section {
+  scroll-margin-top: 130px;
+}
+
+.viagens-kicker {
+  text-align: center;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #6d7d66;
+  margin-bottom: 0.35rem;
+}
+
+.viagens-title {
+  margin-bottom: 0.8rem;
+}
+
+.viagens-jump {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.viagens-jump a {
+  font-weight: 600;
+  border-bottom: 2px solid var(--primary);
+}
+
+.ilhota-photos {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ilhota-photos img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  object-position: center 30%;
+  border-radius: 24px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
 /* Animations */
 .fade-in {
   opacity: 0;
@@ -124,7 +171,7 @@ header.scrolled {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0 var(--spacing-md);
 }
@@ -156,14 +203,15 @@ header.scrolled {
 
 .nav-links {
   display: flex;
-  gap: var(--spacing-md);
+  gap: 1.05rem;
   align-items: center;
 }
 
 .nav-item {
   color: var(--text-main);
   font-weight: 500;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+  white-space: nowrap;
 }
 
 .nav-item:hover {
@@ -533,6 +581,16 @@ header.scrolled {
 }
 
 @media (max-width: 768px) {
+  #viagens .tg-vc-price-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.15rem;
+  }
+
+  .ilhota-photos img {
+    height: 240px;
+  }
+
   .nav-links {
     display: none;
   }
